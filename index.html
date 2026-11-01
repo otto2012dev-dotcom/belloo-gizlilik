@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Belloo · Privacy Policy · Gizlilik Politikası · Datenschutz · Privacidade · Privacidad · Confidentialité</title>
+<meta name="description" content="Privacy policy for Belloo, the alarm app: no data collected, no server, no account, no ads, no analytics. Everything stays on your iPhone. Also in Turkish, German, Brazilian Portuguese, Spanish and French.">
+<link rel="canonical" href="https://otto2012dev-dotcom.github.io/belloo-gizlilik/">
+<meta property="og:url" content="https://otto2012dev-dotcom.github.io/belloo-gizlilik/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Belloo · Privacy Policy · Gizlilik Politikası · Datenschutz · Privacidade · Privacidad · Confidentialité">
+<meta property="og:description" content="No data collected, no server, no account, no ads, no analytics. Everything stays on your iPhone.">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="tr_TR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="es_LA">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12111a" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2312111a'/%3E%3Cpath d='M20 6a10 10 0 1 0 6 18A8 8 0 0 1 20 6z' fill='%23a9a0ff'/%3E%3C/svg%3E">
+<style>
+  /* ==========================================================================
+     UYGULAMA ADI: ismi değiştirmek için SADECE aşağıdaki satırı düzenle.
+     (Metinlerde <span class="app"></span> olan her yer bu değeri gösterir.
+      Türkçe metinde ek (-nın, -ı) almaması için cümleler buna göre kuruldu.)
+     ========================================================================== */
+  :root { --app-name: "Belloo"; }
+  .app::before { content: var(--app-name); }
+
+  /* Renkler: açık / koyu */
+  :root {
+    --bg: #fbfaf7;
+    --fg: #1d1b26;
+    --muted: #5d5a6b;
+    --line: #e2dfd6;
+    --card: #ffffff;
+    --accent: #4a3fb5;
+    --mark: #fff3c4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12111a;
+      --fg: #ecebf3;
+      --muted: #a9a6ba;
+      --line: #2c2a3a;
+      --card: #1b1a26;
+      --accent: #a9a0ff;
+      --mark: #4a4220;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 1.25rem 1rem 3rem; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin: .2rem 0 .3rem; }
+  h2 { font-size: 1.2rem; margin: 2rem 0 .4rem; }
+  p, ul { margin: .5rem 0; }
+  ul { padding-left: 1.25rem; }
+  li { margin: .3rem 0; }
+  .meta { color: var(--muted); font-size: .95rem; margin: 0 0 1rem; }
+  .lang-nav {
+    display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 1.25rem;
+  }
+  .lang-nav a {
+    border: 1px solid var(--line); background: var(--card);
+    border-radius: 999px; padding: .35rem .9rem; text-decoration: none; font-weight: 600;
+    min-height: 44px; display: inline-flex; align-items: center;
+  }
+  .summary {
+    background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+    padding: .8rem 1rem; margin: 1rem 0;
+  }
+  .summary p { margin: .2rem 0; }
+  table { border-collapse: collapse; width: 100%; margin: .6rem 0; font-size: .97rem; }
+  th, td { text-align: left; vertical-align: top; padding: .5rem .55rem; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  .contact { background: var(--mark); padding: .05rem .35rem; border-radius: 4px; font-weight: 600; }
+  section.lang { padding-top: .5rem; }
+  section.lang + section.lang { margin-top: 3rem; border-top: 2px solid var(--line); padding-top: 1.5rem; }
+  .top { display: inline-block; margin-top: 2rem; font-size: .95rem; }
+  .top { margin-right: 1.25rem; }
+  @media (max-width: 30rem) {
+    body { font-size: 16.5px; }
+    th, td { padding: .45rem .35rem; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <nav class="lang-nav" aria-label="Language / Dil / Sprache / Idioma / Langue">
+    <a href="#en" hreflang="en">English</a>
+    <a href="#tr" hreflang="tr" lang="tr">Türkçe</a>
+    <a href="#de" hreflang="de" lang="de">Deutsch</a>
+    <a href="#pt" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+    <a href="#es" hreflang="es" lang="es">Español</a>
+    <a href="#fr" hreflang="fr" lang="fr">Français</a>
+  </nav>
+
+  <!-- ===================================================================== -->
+  <!-- ENGLISH                                                                -->
+  <!-- ===================================================================== -->
+  <section class="lang" id="en" lang="en">
+    <h1><span class="app"></span> Privacy Policy</h1>
+    <p class="meta">Effective date: October 10, 2026 · Applies to the <span class="app"></span> app for iPhone and iPad</p>
+
+    <div class="summary">
+      <p><strong>Short version:</strong> everything stays on your phone. We run no server, there is no account, no ads, no tracking and no analytics. We never receive your alarms, photos or voice recordings.</p>
+    </div>
+
+    <h2>1. What data the app uses</h2>
+    <p>The app works entirely on your device. It has no connection to any server of ours, and it contains no advertising, analytics or crash-reporting tools from us or from third parties. What it keeps on your phone:</p>
+    <ul>
+      <li><strong>Your alarms and settings</strong>: alarm times, days, chosen task, sound and tone, language, and whether Pro is active.</li>
+      <li><strong>Loved-one voice recordings</strong> (optional): short recordings you make yourself, up to 15 seconds each and up to 3 per alarm, so the alarm can wake you with that voice.</li>
+      <li><strong>A reference photo</strong> (only if you use the photo task): one picture of a place, taken with the camera, so the app can check in the morning that you are at the same place.</li>
+      <li><strong>Ready-made sound files</strong> the app builds on your phone by mixing its own alarm sounds, voice lines and (if you use it) your recording, so alarms can ring when the app is closed. All the spoken lines are pre-recorded and ship inside the app; nothing is generated online.</li>
+      <li><strong>A technical event log</strong>: a short list of what the app did (for example when an alarm rang, whether the silent switch was on, volume, audio output, battery level and charging state, and when the phone last restarted). It keeps at most the last 1,500 entries and contains no photos or recordings. It exists to check that alarms are reliable. It stays on your phone, and we cannot see it. Test versions can copy it to the clipboard by hand; the app never sends it anywhere.</li>
+    </ul>
+
+    <h2>2. Nothing leaves your device</h2>
+    <p>We do not collect, receive, sell or share any personal data. The photo task compares your reference photo with the morning photo on your phone using iOS's built-in image tools. The morning photo is deleted right after the comparison. Voice recordings are never uploaded.</p>
+    <p>The app does not use your location, contacts or advertising identifier, and it does not track you across other apps or websites.</p>
+
+    <h2>3. Permissions, and why</h2>
+    <p>The app asks only when a feature needs it. You can change any of these later in iOS Settings → <span class="app"></span>.</p>
+    <table>
+      <thead><tr><th scope="col">Permission</th><th scope="col">Why</th></tr></thead>
+      <tbody>
+        <tr><td>Notifications</td><td>Shows and sounds alerts at alarm time, including as a backup when the app is closed.</td></tr>
+        <tr><td>Alarms (Apple's system alarm permission, iOS 26 and later)</td><td>Sets your alarms as system alarms, so they ring even in silent mode or when the app is closed.</td></tr>
+        <tr><td>Camera</td><td>Photo task only: you take the reference picture and the morning picture. Pictures are not sent anywhere.</td></tr>
+        <tr><td>Microphone</td><td>Only while you record a loved one's voice for an alarm. Recordings stay on your iPhone.</td></tr>
+        <tr><td>Motion</td><td>Shake task only: the motion sensor counts your shakes. Nothing is stored or sent.</td></tr>
+        <tr><td>Photo library</td><td>The app does <strong>not</strong> read your photo library. It only takes new pictures with the camera. iOS still requires the app to declare this permission text because of a standard component it uses, so the text exists in the app.</td></tr>
+      </tbody>
+    </table>
+    <p>The app can also play a silent sound in the background while Bed Mode is on, so that the alarm can ring on time. It records nothing while doing so.</p>
+
+    <h2>4. Where data is stored, and how to delete it</h2>
+    <ul>
+      <li>All of the above is stored only inside the app's own storage on your iPhone.</li>
+      <li><strong>Delete an alarm</strong> in the app and its reference photo and voice recordings are deleted with it.</li>
+      <li><strong>Delete one recording</strong> with the trash button next to it in the alarm's loved-voice section.</li>
+      <li><strong>Delete the app</strong> and iOS removes everything the app stored, including the event log.</li>
+      <li><strong>Backups:</strong> if you use iCloud Backup or a computer backup for your iPhone, iOS may include the app's saved settings (alarms and preferences) in that backup. That is your iPhone's own backup, controlled by your Apple settings; we have no access to it. The app excludes voice recordings and reference photos from backups.</li>
+    </ul>
+
+    <h2>5. Purchases</h2>
+    <p>Paid features (<span class="app"></span> Pro) are bought through Apple's In-App Purchase. Apple handles the payment; we never see your card or payment details. We may see anonymous, summed-up sales and download numbers that Apple provides to app makers. These cannot identify you. The alarm itself always rings for free.</p>
+
+    <h2>6. Children</h2>
+    <p>The app is not directed to children under 13. Since the app collects no personal data from anyone, nothing is collected from children either.</p>
+
+    <h2>7. Changes to this policy</h2>
+    <p>If the app starts handling data differently, we will update this page and the effective date at the top before the change is released. Please check the date now and then.</p>
+
+    <h2>8. Contact</h2>
+    <p>Questions about privacy: <a href="mailto:ottoaktuc@gmail.com">ottoaktuc@gmail.com</a></p>
+
+    <a class="top" href="#tr" hreflang="tr" lang="tr">Türkçe okumak için <span aria-hidden="true">→</span></a>
+    <a class="top" href="#de" hreflang="de" lang="de">Auf Deutsch lesen <span aria-hidden="true">→</span></a>
+    <a class="top" href="#pt" hreflang="pt-BR" lang="pt-BR">Ler em português <span aria-hidden="true">→</span></a>
+    <a class="top" href="#es" hreflang="es" lang="es">Leer en español <span aria-hidden="true">→</span></a>
+    <a class="top" href="#fr" hreflang="fr" lang="fr">Lire en français <span aria-hidden="true">→</span></a>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- TÜRKÇE                                                                -->
+  <!-- ===================================================================== -->
+  <section class="lang" id="tr" lang="tr">
+    <h1><span class="app"></span> Gizlilik Politikası</h1>
+    <p class="meta">Yürürlük tarihi: 10 Ekim 2026 · iPhone ve iPad için <span class="app"></span> uygulaması için geçerlidir</p>
+
+    <div class="summary">
+      <p><strong>Kısaca:</strong> her şey telefonunda kalır. Sunucu işletmiyoruz; hesap, reklam, takip ve analitik yok. Alarmlarını, fotoğraflarını ya da ses kayıtlarını biz hiçbir zaman almayız.</p>
+    </div>
+
+    <h2>1. Uygulama hangi verileri kullanır</h2>
+    <p>Uygulama tamamen cihazında çalışır. Bize ait hiçbir sunucuya bağlanmaz; bizden ya da üçüncü taraflardan reklam, analitik veya çökme raporlama aracı içermez. Telefonunda tuttukları:</p>
+    <ul>
+      <li><strong>Alarmların ve ayarların</strong>: alarm saati, günler, seçtiğin görev, ses ve ton, dil, Pro'nun açık olup olmadığı.</li>
+      <li><strong>Sevdiğinin sesi kayıtları</strong> (isteğe bağlı): kendi yaptığın kısa kayıtlar; her biri en fazla 15 saniye, alarm başına en fazla 3 tane. Alarm seni o sesle uyandırsın diye.</li>
+      <li><strong>Bir referans fotoğraf</strong> (yalnız fotoğraf görevini kullanırsan): kamerayla çektiğin bir yerin tek fotoğrafı; sabah aynı yerde olduğunu kontrol etmek için.</li>
+      <li><strong>Hazır ses dosyaları</strong>: uygulama alarm seslerini, replikleri ve (kullanıyorsan) senin kaydını telefonunda karıştırıp hazırlar; böylece uygulama kapalıyken de alarm çalar. Konuşma replikleri önceden kaydedilmiş olup uygulamanın içindedir; internette bir şey üretilmez.</li>
+      <li><strong>Teknik olay günlüğü</strong>: uygulamanın ne yaptığını gösteren kısa liste (örneğin alarmın ne zaman çaldığı, sessiz anahtarın açık olup olmadığı, ses seviyesi, ses çıkışı, pil seviyesi ve şarj durumu, telefonun en son ne zaman yeniden başladığı). En fazla son 1.500 kaydı tutar; fotoğraf ya da ses kaydı içermez. Amacı alarmın güvenilirliğini kontrol etmektir. Telefonunda kalır, biz göremeyiz. Test sürümlerinde elle panoya kopyalanabilir; uygulama onu hiçbir yere göndermez.</li>
+    </ul>
+
+    <h2>2. Hiçbir şey cihazından çıkmaz</h2>
+    <p>Kişisel veri toplamayız, almayız, satmayız, paylaşmayız. Fotoğraf görevinde referans fotoğrafla sabah fotoğrafı, iOS'un yerleşik görüntü araçlarıyla telefonunda karşılaştırılır. Sabah fotoğrafı karşılaştırmadan hemen sonra silinir. Ses kayıtların hiçbir zaman yüklenmez.</p>
+    <p>Uygulama konumunu, rehberini ya da reklam kimliğini kullanmaz; seni başka uygulamalarda ya da sitelerde takip etmez.</p>
+
+    <h2>3. İzinler ve nedenleri</h2>
+    <p>Uygulama izni yalnız bir özellik gerektirdiğinde ister. Bunların hepsini sonradan iOS Ayarlar → <span class="app"></span> bölümünden değiştirebilirsin.</p>
+    <table>
+      <thead><tr><th scope="col">İzin</th><th scope="col">Neden</th></tr></thead>
+      <tbody>
+        <tr><td>Bildirimler</td><td>Alarm anında uyarı gösterir ve ses çalar; uygulama kapalıyken yedek olarak da.</td></tr>
+        <tr><td>Alarmlar (Apple'ın sistem alarmı izni, iOS 26 ve üstü)</td><td>Alarmlarını sistem alarmı olarak kurar; sessiz modda ya da uygulama kapalıyken de çalarlar.</td></tr>
+        <tr><td>Kamera</td><td>Yalnız fotoğraf görevi: referans fotoğrafı ve sabah fotoğrafını çekersin. Fotoğraflar hiçbir yere gönderilmez.</td></tr>
+        <tr><td>Mikrofon</td><td>Yalnız bir alarm için sevdiğinin sesini kaydederken. Kayıtlar iPhone'unda kalır.</td></tr>
+        <tr><td>Hareket</td><td>Yalnız sallama görevi: hareket sensörü sallamalarını sayar. Hiçbir şey saklanmaz ya da gönderilmez.</td></tr>
+        <tr><td>Fotoğraf arşivi</td><td>Uygulama fotoğraf arşivini <strong>okumaz</strong>; yalnız kamerayla yeni fotoğraf çeker. Kullandığı standart bir bileşen yüzünden iOS bu izin metninin uygulamada bulunmasını şart koşar, o yüzden metin vardır.</td></tr>
+      </tbody>
+    </table>
+    <p>Yatak modu açıkken uygulama, alarmın zamanında çalabilmesi için arka planda sessiz bir ses de çalabilir. Bunu yaparken hiçbir şey kaydetmez.</p>
+
+    <h2>4. Veriler nerede durur, nasıl silinir</h2>
+    <ul>
+      <li>Yukarıdakilerin hepsi yalnız uygulamanın iPhone'undaki kendi alanında durur.</li>
+      <li>Uygulamada <strong>bir alarmı silersen</strong> referans fotoğrafı ve ses kayıtları da onunla silinir.</li>
+      <li><strong>Tek bir kaydı</strong> silmek için alarmın "sevdiğinin sesi" bölümünde kaydın yanındaki çöp kutusu düğmesini kullan.</li>
+      <li><strong>Uygulamayı silersen</strong> iOS, uygulamanın sakladığı her şeyi (olay günlüğü dâhil) kaldırır.</li>
+      <li><strong>Yedekler:</strong> iPhone'unu iCloud Yedekleme ya da bilgisayara yedekleme ile yedekliyorsan, iOS uygulamanın kayıtlı ayarlarını (alarmlar ve tercihler) o yedeğe katabilir. Bu, Apple ayarlarınla yönetilen iPhone'unun kendi yedeğidir; bizim erişimimiz yoktur. Uygulama ses kayıtlarını ve referans fotoğrafları yedeklerin dışında tutar.</li>
+    </ul>
+
+    <h2>5. Satın alma</h2>
+    <p>Ücretli özellikler (<span class="app"></span> Pro) Apple'ın Uygulama İçi Satın Alma sistemiyle alınır. Ödemeyi Apple yürütür; kart ya da ödeme bilgilerini biz hiçbir zaman görmeyiz. Apple'ın uygulama yapımcılarına verdiği, kimseyi tanıtmayan toplu satış ve indirme sayılarını görebiliriz. Alarmın çalması her zaman ücretsizdir.</p>
+
+    <h2>6. Çocuklar</h2>
+    <p>Uygulama 13 yaşından küçük çocuklara yönelik değildir. Uygulama kimseden kişisel veri toplamadığı için çocuklardan da hiçbir şey toplanmaz.</p>
+
+    <h2>7. Politikadaki değişiklikler</h2>
+    <p>Uygulama verileri farklı işlemeye başlarsa, değişiklik yayımlanmadan önce bu sayfayı ve en üstteki yürürlük tarihini güncelleriz. Tarihe ara sıra göz atmanı öneririz.</p>
+
+    <h2>8. İletişim</h2>
+    <p>Gizlilikle ilgili sorular için: <a href="mailto:ottoaktuc@gmail.com">ottoaktuc@gmail.com</a></p>
+
+    <a class="top" href="#en" hreflang="en" lang="en">Read in English <span aria-hidden="true">→</span></a>
+    <a class="top" href="#de" hreflang="de" lang="de">Auf Deutsch lesen <span aria-hidden="true">→</span></a>
+    <a class="top" href="#pt" hreflang="pt-BR" lang="pt-BR">Ler em português <span aria-hidden="true">→</span></a>
+    <a class="top" href="#es" hreflang="es" lang="es">Leer en español <span aria-hidden="true">→</span></a>
+    <a class="top" href="#fr" hreflang="fr" lang="fr">Lire en français <span aria-hidden="true">→</span></a>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- DEUTSCH                                                               -->
+  <!-- ===================================================================== -->
+  <section class="lang" id="de" lang="de">
+    <h1><span class="app"></span> – Datenschutzerklärung</h1>
+    <p class="meta">Gültig ab: 10. Oktober 2026 · Gilt für die App <span class="app"></span> für iPhone und iPad</p>
+
+    <div class="summary">
+      <p><strong>Kurz gesagt:</strong> Alles bleibt auf deinem Handy. Wir betreiben keinen Server, es gibt kein Konto, keine Werbung, kein Tracking und keine Analyse. Deine Wecker, Fotos und Sprachaufnahmen erhalten wir nie.</p>
+    </div>
+
+    <h2>1. Welche Daten die App nutzt</h2>
+    <p>Die App läuft vollständig auf deinem Gerät. Sie verbindet sich mit keinem Server von uns und enthält keine Werbe-, Analyse- oder Absturzbericht-Tools, weder von uns noch von Dritten. Was sie auf deinem Handy speichert:</p>
+    <ul>
+      <li><strong>Deine Wecker und Einstellungen</strong>: Weckzeiten, Tage, gewählte Aufgabe, Ton und Tonfall, Sprache und ob Pro aktiv ist.</li>
+      <li><strong>Sprachaufnahmen eines lieben Menschen</strong> (optional): kurze Aufnahmen, die du selbst machst, je bis zu 15 Sekunden und bis zu 3 pro Wecker, damit dich der Wecker mit dieser Stimme weckt.</li>
+      <li><strong>Ein Referenzfoto</strong> (nur wenn du die Fotoaufgabe nutzt): ein mit der Kamera aufgenommenes Bild eines Ortes, damit die App morgens prüfen kann, dass du am selben Ort bist.</li>
+      <li><strong>Fertige Tondateien</strong>, die die App auf deinem Handy aus ihren eigenen Wecktönen, Sprachsätzen und (wenn du sie nutzt) deiner Aufnahme mischt, damit Wecker auch bei geschlossener App klingeln können. Alle gesprochenen Sätze sind vorab aufgenommen und in der App enthalten; nichts wird online erzeugt.</li>
+      <li><strong>Ein technisches Ereignisprotokoll</strong>: eine kurze Liste dessen, was die App getan hat (zum Beispiel wann ein Wecker geklingelt hat, ob der Stummmodus an war, Lautstärke, Audioausgabe, Akkustand und Ladezustand und wann das Handy zuletzt neu gestartet wurde). Es behält höchstens die letzten 1.500 Einträge und enthält keine Fotos oder Aufnahmen. Es dient dazu, die Zuverlässigkeit der Wecker zu prüfen. Es bleibt auf deinem Handy, und wir können es nicht sehen. In Testversionen lässt es sich von Hand in die Zwischenablage kopieren; die App sendet es nirgendwohin.</li>
+    </ul>
+
+    <h2>2. Nichts verlässt dein Gerät</h2>
+    <p>Wir erheben, empfangen, verkaufen oder teilen keine personenbezogenen Daten. Bei der Fotoaufgabe vergleicht die App dein Referenzfoto mit dem Morgenfoto auf deinem Handy, mit den eingebauten Bildwerkzeugen von iOS. Das Morgenfoto wird direkt nach dem Vergleich gelöscht. Sprachaufnahmen werden nie hochgeladen.</p>
+    <p>Die App nutzt weder deinen Standort noch deine Kontakte noch deine Werbe-ID, und sie verfolgt dich nicht über andere Apps oder Websites hinweg.</p>
+
+    <h2>3. Berechtigungen und warum</h2>
+    <p>Die App fragt nur, wenn eine Funktion es braucht. Du kannst alles später unter iOS-Einstellungen → <span class="app"></span> ändern.</p>
+    <table>
+      <thead><tr><th scope="col">Berechtigung</th><th scope="col">Warum</th></tr></thead>
+      <tbody>
+        <tr><td>Mitteilungen</td><td>Zeigt zur Weckzeit Hinweise an und spielt Töne ab, auch als Ersatz, wenn die App geschlossen ist.</td></tr>
+        <tr><td>Wecker (Apples Berechtigung für Systemwecker, ab iOS 26)</td><td>Stellt deine Wecker als Systemwecker, damit sie auch im Stummmodus oder bei geschlossener App klingeln.</td></tr>
+        <tr><td>Kamera</td><td>Nur für die Fotoaufgabe: Du machst das Referenzfoto und das Morgenfoto. Die Bilder werden nirgendwohin gesendet.</td></tr>
+        <tr><td>Mikrofon</td><td>Nur während du die Stimme eines lieben Menschen für einen Wecker aufnimmst. Die Aufnahmen bleiben auf deinem iPhone.</td></tr>
+        <tr><td>Bewegung</td><td>Nur für die Schüttelaufgabe: Der Bewegungssensor zählt, wie oft du schüttelst. Nichts wird gespeichert oder gesendet.</td></tr>
+        <tr><td>Fotomediathek</td><td>Die App liest deine Fotomediathek <strong>nicht</strong>. Sie macht nur neue Bilder mit der Kamera. iOS verlangt trotzdem, dass die App diesen Berechtigungstext enthält, weil sie eine Standardkomponente nutzt; deshalb ist der Text in der App vorhanden.</td></tr>
+      </tbody>
+    </table>
+    <p>Solange der Bettmodus an ist, kann die App im Hintergrund außerdem einen stummen Ton abspielen, damit der Wecker pünktlich klingeln kann. Dabei nimmt sie nichts auf.</p>
+
+    <h2>4. Wo Daten gespeichert werden und wie du sie löschst</h2>
+    <ul>
+      <li>Alles oben Genannte wird nur im eigenen Speicherbereich der App auf deinem iPhone abgelegt.</li>
+      <li><strong>Lösch einen Wecker</strong> in der App, dann werden sein Referenzfoto und seine Sprachaufnahmen mit gelöscht.</li>
+      <li><strong>Eine einzelne Aufnahme löschst du</strong> mit dem Papierkorb-Button daneben, im Bereich für die Stimme eines lieben Menschen beim jeweiligen Wecker.</li>
+      <li><strong>Lösch die App</strong>, dann entfernt iOS alles, was die App gespeichert hat, auch das Ereignisprotokoll.</li>
+      <li><strong>Backups:</strong> Wenn du dein iPhone mit iCloud-Backup oder auf einem Computer sicherst, kann iOS die gespeicherten Einstellungen der App (Wecker und Vorlieben) in dieses Backup aufnehmen. Das ist das eigene Backup deines iPhones, gesteuert über deine Apple-Einstellungen; wir haben keinen Zugriff darauf. Sprachaufnahmen und Referenzfotos schließt die App von Backups aus.</li>
+    </ul>
+
+    <h2>5. Käufe</h2>
+    <p>Kostenpflichtige Funktionen (<span class="app"></span> Pro) werden über Apples In-App-Kauf gekauft. Die Zahlung wickelt Apple ab; deine Karten- oder Zahlungsdaten sehen wir nie. Wir sehen möglicherweise anonyme, zusammengefasste Verkaufs- und Downloadzahlen, die Apple App-Entwicklern bereitstellt. Daraus lässt sich nicht erkennen, wer du bist. Der Wecker selbst klingelt immer kostenlos.</p>
+
+    <h2>6. Kinder</h2>
+    <p>Die App richtet sich nicht an Kinder unter 13 Jahren. Da die App von niemandem personenbezogene Daten erhebt, werden auch von Kindern keine erhoben.</p>
+
+    <h2>7. Änderungen dieser Erklärung</h2>
+    <p>Wenn die App künftig anders mit Daten umgeht, aktualisieren wir diese Seite und das Datum oben, bevor die Änderung erscheint. Schau ab und zu auf das Datum.</p>
+
+    <h2>8. Kontakt</h2>
+    <p>Fragen zum Datenschutz: <a href="mailto:ottoaktuc@gmail.com">ottoaktuc@gmail.com</a></p>
+
+    <a class="top" href="#en" hreflang="en" lang="en">Read in English <span aria-hidden="true">→</span></a>
+    <a class="top" href="#tr" hreflang="tr" lang="tr">Türkçe okumak için <span aria-hidden="true">→</span></a>
+    <a class="top" href="#pt" hreflang="pt-BR" lang="pt-BR">Ler em português <span aria-hidden="true">→</span></a>
+    <a class="top" href="#es" hreflang="es" lang="es">Leer en español <span aria-hidden="true">→</span></a>
+    <a class="top" href="#fr" hreflang="fr" lang="fr">Lire en français <span aria-hidden="true">→</span></a>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- PORTUGUÊS (BRASIL)                                                     -->
+  <!-- ===================================================================== -->
+  <section class="lang" id="pt" lang="pt-BR">
+    <h1><span class="app"></span> – Política de Privacidade</h1>
+    <p class="meta">Data de vigência: 10 de outubro de 2026 · Vale para o app <span class="app"></span> para iPhone e iPad</p>
+
+    <div class="summary">
+      <p><strong>Resumindo:</strong> tudo fica no seu celular. Não temos servidor, e não há conta, anúncios, rastreamento nem análises. Nunca recebemos seus alarmes, fotos ou gravações de voz.</p>
+    </div>
+
+    <h2>1. Quais dados o app usa</h2>
+    <p>O app funciona totalmente no seu aparelho. Ele não se conecta a nenhum servidor nosso e não contém ferramentas de anúncios, análises ou relatórios de falhas, nossas ou de terceiros. O que ele guarda no seu celular:</p>
+    <ul>
+      <li><strong>Seus alarmes e ajustes</strong>: horários, dias, tarefa escolhida, som e tom, idioma e se o Pro está ativo.</li>
+      <li><strong>Gravações da voz de quem você ama</strong> (opcional): gravações curtas feitas por você, de até 15 segundos cada e até 3 por alarme, para o alarme acordar você com essa voz.</li>
+      <li><strong>Uma foto de referência</strong> (só se você usar a tarefa de foto): uma imagem de um lugar, tirada com a câmera, para o app conferir de manhã que você está no mesmo lugar.</li>
+      <li><strong>Arquivos de som prontos</strong>, que o app monta no seu celular misturando os próprios sons de alarme, as falas e (se você usar) a sua gravação, para que os alarmes toquem mesmo com o app fechado. Todas as falas são pré-gravadas e vêm dentro do app; nada é gerado online.</li>
+      <li><strong>Um registro técnico de eventos</strong>: uma lista curta do que o app fez (por exemplo, quando um alarme tocou, se o modo silencioso estava ativado, volume, saída de áudio, nível e carregamento da bateria e quando o celular foi reiniciado pela última vez). Ele guarda no máximo as últimas 1.500 entradas e não contém fotos nem gravações. Serve para verificar se os alarmes são confiáveis. Fica no seu celular, e nós não conseguimos vê-lo. Nas versões de teste, ele pode ser copiado manualmente para a área de transferência; o app nunca o envia para lugar nenhum.</li>
+    </ul>
+
+    <h2>2. Nada sai do seu aparelho</h2>
+    <p>Não coletamos, recebemos, vendemos nem compartilhamos dados pessoais. Na tarefa de foto, o app compara a sua foto de referência com a foto da manhã no seu celular, usando as ferramentas de imagem do próprio iOS. A foto da manhã é apagada logo após a comparação. As gravações de voz nunca são enviadas.</p>
+    <p>O app não usa sua localização, seus contatos nem seu identificador de publicidade, e não rastreia você em outros apps ou sites.</p>
+
+    <h2>3. Permissões e por quê</h2>
+    <p>O app só pede uma permissão quando um recurso precisa dela. Você pode mudar qualquer uma depois em Ajustes do iOS → <span class="app"></span>.</p>
+    <table>
+      <thead><tr><th scope="col">Permissão</th><th scope="col">Por quê</th></tr></thead>
+      <tbody>
+        <tr><td>Notificações</td><td>Mostra avisos e toca sons na hora do alarme, inclusive como reserva quando o app está fechado.</td></tr>
+        <tr><td>Alarmes (permissão de alarmes do sistema da Apple, iOS 26 ou posterior)</td><td>Cria seus alarmes como alarmes do sistema, para que toquem mesmo no modo silencioso ou com o app fechado.</td></tr>
+        <tr><td>Câmera</td><td>Só para a tarefa de foto: você tira a foto de referência e a foto da manhã. As fotos não são enviadas para lugar nenhum.</td></tr>
+        <tr><td>Microfone</td><td>Só enquanto você grava a voz de quem você ama para um alarme. As gravações ficam no seu iPhone.</td></tr>
+        <tr><td>Movimento</td><td>Só para a tarefa de chacoalhar: o sensor de movimento conta as chacoalhadas. Nada é guardado nem enviado.</td></tr>
+        <tr><td>Fotos</td><td>O app <strong>não</strong> lê a sua biblioteca de fotos. Ele só tira fotos novas com a câmera. Mesmo assim, o iOS exige que o app declare o texto dessa permissão por causa de um componente padrão que ele usa; por isso o texto existe no app.</td></tr>
+      </tbody>
+    </table>
+    <p>Enquanto o modo cama estiver ativado, o app também pode tocar um som silencioso em segundo plano, para que o alarme toque na hora certa. Ele não grava nada enquanto faz isso.</p>
+
+    <h2>4. Onde os dados ficam e como apagá-los</h2>
+    <ul>
+      <li>Tudo o que foi citado acima fica guardado só no espaço do próprio app no seu iPhone.</li>
+      <li><strong>Apague um alarme</strong> no app, e a foto de referência e as gravações de voz dele são apagadas junto.</li>
+      <li><strong>Apague uma gravação</strong> com o botão de lixeira ao lado dela, na seção da voz de quem você ama do alarme.</li>
+      <li><strong>Apague o app</strong>, e o iOS remove tudo o que o app guardou, inclusive o registro de eventos.</li>
+      <li><strong>Backups:</strong> se você faz backup do iPhone no iCloud ou no computador, o iOS pode incluir os ajustes salvos do app (alarmes e preferências) nesse backup. Esse é o backup do seu próprio iPhone, controlado pelos seus ajustes da Apple; nós não temos acesso a ele. O app deixa as gravações de voz e as fotos de referência fora dos backups.</li>
+    </ul>
+
+    <h2>5. Compras</h2>
+    <p>Os recursos pagos (<span class="app"></span> Pro) são comprados pela Compra dentro do App da Apple. A Apple cuida do pagamento; nunca vemos os dados do seu cartão ou de pagamento. Podemos ver números anônimos e agregados de vendas e downloads que a Apple fornece aos desenvolvedores de apps. Eles não identificam você. O alarme em si sempre toca de graça.</p>
+
+    <h2>6. Crianças</h2>
+    <p>O app não é direcionado a crianças menores de 13 anos. Como o app não coleta dados pessoais de ninguém, também não coleta nada de crianças.</p>
+
+    <h2>7. Mudanças nesta política</h2>
+    <p>Se o app passar a tratar dados de outra forma, atualizaremos esta página e a data de vigência no topo antes de a mudança ser lançada. Confira a data de vez em quando.</p>
+
+    <h2>8. Contato</h2>
+    <p>Dúvidas sobre privacidade: <a href="mailto:ottoaktuc@gmail.com">ottoaktuc@gmail.com</a></p>
+
+    <a class="top" href="#en" hreflang="en" lang="en">Read in English <span aria-hidden="true">→</span></a>
+    <a class="top" href="#tr" hreflang="tr" lang="tr">Türkçe okumak için <span aria-hidden="true">→</span></a>
+    <a class="top" href="#de" hreflang="de" lang="de">Auf Deutsch lesen <span aria-hidden="true">→</span></a>
+    <a class="top" href="#es" hreflang="es" lang="es">Leer en español <span aria-hidden="true">→</span></a>
+    <a class="top" href="#fr" hreflang="fr" lang="fr">Lire en français <span aria-hidden="true">→</span></a>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- ESPAÑOL                                                                -->
+  <!-- ===================================================================== -->
+  <section class="lang" id="es" lang="es">
+    <h1><span class="app"></span> – Política de privacidad</h1>
+    <p class="meta">Fecha de vigencia: 10 de octubre de 2026 · Aplica a la app <span class="app"></span> para iPhone y iPad</p>
+
+    <div class="summary">
+      <p><strong>En resumen:</strong> todo se queda en tu teléfono. No tenemos servidor, y no hay cuenta, anuncios, rastreo ni analíticas. Nunca recibimos tus alarmas, fotos ni grabaciones de voz.</p>
+    </div>
+
+    <h2>1. Qué datos usa la app</h2>
+    <p>La app funciona por completo en tu dispositivo. No se conecta a ningún servidor nuestro y no contiene herramientas de publicidad, analíticas ni informes de fallos, ni nuestras ni de terceros. Lo que guarda en tu teléfono:</p>
+    <ul>
+      <li><strong>Tus alarmas y ajustes</strong>: horas, días, tarea elegida, sonido y tono, idioma y si Pro está activo.</li>
+      <li><strong>Grabaciones de la voz de un ser querido</strong> (opcional): grabaciones cortas que haces tú, de hasta 15 segundos cada una y hasta 3 por alarma, para que la alarma te despierte con esa voz.</li>
+      <li><strong>Una foto de referencia</strong> (solo si usas la tarea de foto): una imagen de un lugar, tomada con la cámara, para que la app compruebe por la mañana que estás en el mismo lugar.</li>
+      <li><strong>Archivos de sonido listos</strong>, que la app prepara en tu teléfono mezclando sus propios sonidos de alarma, las frases habladas y (si la usas) tu grabación, para que las alarmas suenen aunque la app esté cerrada. Todas las frases están pregrabadas y vienen dentro de la app; nada se genera en línea.</li>
+      <li><strong>Un registro técnico de eventos</strong>: una lista corta de lo que hizo la app (por ejemplo, cuándo sonó una alarma, si el modo silencio estaba activado, el volumen, la salida de audio, el nivel y la carga de la batería y cuándo se reinició el teléfono por última vez). Guarda como máximo las últimas 1.500 entradas y no contiene fotos ni grabaciones. Sirve para comprobar que las alarmas son confiables. Se queda en tu teléfono y nosotros no podemos verlo. En las versiones de prueba se puede copiar a mano al portapapeles; la app nunca lo envía a ningún lugar.</li>
+    </ul>
+
+    <h2>2. Nada sale de tu dispositivo</h2>
+    <p>No recopilamos, recibimos, vendemos ni compartimos datos personales. En la tarea de foto, la app compara tu foto de referencia con la foto de la mañana en tu teléfono, usando las herramientas de imagen integradas de iOS. La foto de la mañana se borra justo después de la comparación. Las grabaciones de voz nunca se suben.</p>
+    <p>La app no usa tu ubicación, tus contactos ni tu identificador de publicidad, y no te rastrea en otras apps ni sitios web.</p>
+
+    <h2>3. Permisos y para qué sirven</h2>
+    <p>La app solo pide un permiso cuando una función lo necesita. Puedes cambiar cualquiera más tarde en Configuración de iOS → <span class="app"></span>.</p>
+    <table>
+      <thead><tr><th scope="col">Permiso</th><th scope="col">Para qué</th></tr></thead>
+      <tbody>
+        <tr><td>Notificaciones</td><td>Muestra avisos y reproduce sonidos a la hora de la alarma, también como respaldo cuando la app está cerrada.</td></tr>
+        <tr><td>Alarmas (permiso de alarmas del sistema de Apple, iOS 26 o posterior)</td><td>Crea tus alarmas como alarmas del sistema, para que suenen incluso en modo silencio o con la app cerrada.</td></tr>
+        <tr><td>Cámara</td><td>Solo para la tarea de foto: tú tomas la foto de referencia y la foto de la mañana. Las fotos no se envían a ningún lugar.</td></tr>
+        <tr><td>Micrófono</td><td>Solo mientras grabas la voz de un ser querido para una alarma. Las grabaciones se quedan en tu iPhone.</td></tr>
+        <tr><td>Movimiento</td><td>Solo para la tarea de agitar: el sensor de movimiento cuenta tus sacudidas. No se guarda ni se envía nada.</td></tr>
+        <tr><td>Fotos</td><td>La app <strong>no</strong> lee tu fototeca. Solo toma fotos nuevas con la cámara. Aun así, iOS exige que la app declare el texto de este permiso por un componente estándar que usa; por eso el texto existe en la app.</td></tr>
+      </tbody>
+    </table>
+    <p>Mientras el modo cama está activado, la app también puede reproducir un sonido silencioso en segundo plano, para que la alarma suene a tiempo. No graba nada mientras lo hace.</p>
+
+    <h2>4. Dónde se guardan los datos y cómo borrarlos</h2>
+    <ul>
+      <li>Todo lo anterior se guarda solo en el espacio propio de la app en tu iPhone.</li>
+      <li><strong>Borra una alarma</strong> en la app y su foto de referencia y sus grabaciones de voz se borran con ella.</li>
+      <li><strong>Borra una grabación</strong> con el botón de papelera que está a su lado, en la sección de la voz de un ser querido de la alarma.</li>
+      <li><strong>Borra la app</strong> e iOS elimina todo lo que la app guardó, incluido el registro de eventos.</li>
+      <li><strong>Respaldos:</strong> si respaldas tu iPhone con Respaldo en iCloud o en una computadora, iOS puede incluir los ajustes guardados de la app (alarmas y preferencias) en ese respaldo. Es el respaldo de tu propio iPhone, controlado por tu configuración de Apple; nosotros no tenemos acceso a él. La app deja fuera de los respaldos las grabaciones de voz y las fotos de referencia.</li>
+    </ul>
+
+    <h2>5. Compras</h2>
+    <p>Las funciones de pago (<span class="app"></span> Pro) se compran con las compras dentro de la app de Apple. Apple se encarga del pago; nunca vemos los datos de tu tarjeta ni de pago. Podemos ver cifras anónimas y agregadas de ventas y descargas que Apple ofrece a los desarrolladores de apps. No te identifican. La alarma en sí siempre suena gratis.</p>
+
+    <h2>6. Niños</h2>
+    <p>La app no está dirigida a niños menores de 13 años. Como la app no recopila datos personales de nadie, tampoco recopila nada de niños.</p>
+
+    <h2>7. Cambios en esta política</h2>
+    <p>Si la app empieza a tratar los datos de otra forma, actualizaremos esta página y la fecha de vigencia de arriba antes de publicar el cambio. Revisa la fecha de vez en cuando.</p>
+
+    <h2>8. Contacto</h2>
+    <p>Preguntas sobre privacidad: <a href="mailto:ottoaktuc@gmail.com">ottoaktuc@gmail.com</a></p>
+
+    <a class="top" href="#en" hreflang="en" lang="en">Read in English <span aria-hidden="true">→</span></a>
+    <a class="top" href="#tr" hreflang="tr" lang="tr">Türkçe okumak için <span aria-hidden="true">→</span></a>
+    <a class="top" href="#de" hreflang="de" lang="de">Auf Deutsch lesen <span aria-hidden="true">→</span></a>
+    <a class="top" href="#pt" hreflang="pt-BR" lang="pt-BR">Ler em português <span aria-hidden="true">→</span></a>
+    <a class="top" href="#fr" hreflang="fr" lang="fr">Lire en français <span aria-hidden="true">→</span></a>
+  </section>
+
+  <!-- ===================================================================== -->
+  <!-- FRANÇAIS                                                               -->
+  <!-- ===================================================================== -->
+  <section class="lang" id="fr" lang="fr">
+    <h1><span class="app"></span> – Politique de confidentialité</h1>
+    <p class="meta">Date d'entrée en vigueur : 10 octobre 2026 · S'applique à l'app <span class="app"></span> pour iPhone et iPad</p>
+
+    <div class="summary">
+      <p><strong>En bref :</strong> tout reste sur ton téléphone. Nous n'avons pas de serveur, et il n'y a ni compte, ni pub, ni pistage, ni analyse. Nous ne recevons jamais tes alarmes, tes photos ou tes enregistrements vocaux.</p>
+    </div>
+
+    <h2>1. Les données utilisées par l'app</h2>
+    <p>L'app fonctionne entièrement sur ton appareil. Elle ne se connecte à aucun serveur à nous et ne contient aucun outil de publicité, d'analyse ou de rapport de plantage, ni de nous ni de tiers. Ce qu'elle garde sur ton téléphone :</p>
+    <ul>
+      <li><strong>Tes alarmes et réglages</strong> : heures, jours, tâche choisie, son et ton, langue, et si Pro est actif.</li>
+      <li><strong>Enregistrements de la voix d'un proche</strong> (facultatif) : de courts enregistrements que tu fais toi-même, de 15 secondes maximum chacun et 3 maximum par alarme, pour que l'alarme te réveille avec cette voix.</li>
+      <li><strong>Une photo de référence</strong> (seulement si tu utilises la tâche photo) : une image d'un endroit, prise avec l'appareil photo, pour que l'app vérifie le matin que tu es au même endroit.</li>
+      <li><strong>Des fichiers son prêts</strong>, que l'app prépare sur ton téléphone en mélangeant ses propres sons d'alarme, les phrases parlées et (si tu l'utilises) ton enregistrement, pour que les alarmes sonnent même quand l'app est fermée. Toutes les phrases sont préenregistrées et incluses dans l'app ; rien n'est généré en ligne.</li>
+      <li><strong>Un journal technique des événements</strong> : une courte liste de ce que l'app a fait (par exemple quand une alarme a sonné, si le mode silencieux était activé, le volume, la sortie audio, le niveau et la charge de la batterie, et quand le téléphone a redémarré pour la dernière fois). Il garde au maximum les 1 500 dernières entrées et ne contient ni photos ni enregistrements. Il sert à vérifier que les alarmes sont fiables. Il reste sur ton téléphone, et nous ne pouvons pas le voir. Dans les versions de test, il peut être copié à la main dans le presse-papiers ; l'app ne l'envoie jamais nulle part.</li>
+    </ul>
+
+    <h2>2. Rien ne quitte ton appareil</h2>
+    <p>Nous ne collectons, ne recevons, ne vendons et ne partageons aucune donnée personnelle. Pour la tâche photo, l'app compare ta photo de référence avec la photo du matin sur ton téléphone, grâce aux outils d'image intégrés à iOS. La photo du matin est supprimée juste après la comparaison. Les enregistrements vocaux ne sont jamais envoyés en ligne.</p>
+    <p>L'app n'utilise ni ta position, ni tes contacts, ni ton identifiant publicitaire, et elle ne te suit pas dans d'autres apps ou sites web.</p>
+
+    <h2>3. Autorisations, et pourquoi</h2>
+    <p>L'app ne demande une autorisation que lorsqu'une fonction en a besoin. Tu peux toutes les modifier plus tard dans Réglages iOS → <span class="app"></span>.</p>
+    <table>
+      <thead><tr><th scope="col">Autorisation</th><th scope="col">Pourquoi</th></tr></thead>
+      <tbody>
+        <tr><td>Notifications</td><td>Affiche des alertes et joue des sons à l'heure de l'alarme, y compris en secours quand l'app est fermée.</td></tr>
+        <tr><td>Alarmes (autorisation d'alarmes système d'Apple, iOS 26 ou ultérieur)</td><td>Crée tes alarmes comme alarmes système, pour qu'elles sonnent même en mode silencieux ou quand l'app est fermée.</td></tr>
+        <tr><td>Appareil photo</td><td>Seulement pour la tâche photo : tu prends la photo de référence et la photo du matin. Les photos ne sont envoyées nulle part.</td></tr>
+        <tr><td>Micro</td><td>Seulement pendant que tu enregistres la voix d'un proche pour une alarme. Les enregistrements restent sur ton iPhone.</td></tr>
+        <tr><td>Mouvements</td><td>Seulement pour la tâche secouer : le capteur de mouvement compte tes secousses. Rien n'est enregistré ni envoyé.</td></tr>
+        <tr><td>Photos</td><td>L'app <strong>ne lit pas</strong> ta photothèque. Elle prend seulement de nouvelles photos avec l'appareil photo. iOS exige quand même que l'app déclare le texte de cette autorisation à cause d'un composant standard qu'elle utilise ; c'est pourquoi ce texte existe dans l'app.</td></tr>
+      </tbody>
+    </table>
+    <p>Quand le mode chevet est activé, l'app peut aussi jouer un son silencieux en arrière-plan, pour que l'alarme sonne à l'heure. Elle n'enregistre rien pendant ce temps.</p>
+
+    <h2>4. Où sont stockées les données, et comment les supprimer</h2>
+    <ul>
+      <li>Tout ce qui précède est stocké uniquement dans l'espace propre de l'app sur ton iPhone.</li>
+      <li><strong>Supprime une alarme</strong> dans l'app, et sa photo de référence et ses enregistrements vocaux sont supprimés avec elle.</li>
+      <li><strong>Supprime un enregistrement</strong> avec le bouton corbeille à côté, dans la section « Voix d'un proche » de l'alarme.</li>
+      <li><strong>Supprime l'app</strong>, et iOS efface tout ce que l'app a stocké, y compris le journal des événements.</li>
+      <li><strong>Sauvegardes :</strong> si tu sauvegardes ton iPhone avec la sauvegarde iCloud ou sur un ordinateur, iOS peut inclure les réglages enregistrés de l'app (alarmes et préférences) dans cette sauvegarde. C'est la sauvegarde de ton propre iPhone, contrôlée par tes réglages Apple ; nous n'y avons pas accès. L'app exclut des sauvegardes les enregistrements vocaux et les photos de référence.</li>
+    </ul>
+
+    <h2>5. Achats</h2>
+    <p>Les fonctions payantes (<span class="app"></span> Pro) s'achètent via les achats intégrés d'Apple. Apple gère le paiement ; nous ne voyons jamais les données de ta carte ou de paiement. Nous pouvons voir des chiffres de ventes et de téléchargements anonymes et regroupés qu'Apple fournit aux développeurs d'apps. Ils ne permettent pas de t'identifier. L'alarme elle-même sonne toujours gratuitement.</p>
+
+    <h2>6. Enfants</h2>
+    <p>L'app ne s'adresse pas aux enfants de moins de 13 ans. Comme l'app ne collecte de données personnelles auprès de personne, elle ne collecte rien non plus auprès des enfants.</p>
+
+    <h2>7. Modifications de cette politique</h2>
+    <p>Si l'app se met à traiter les données autrement, nous mettrons à jour cette page et la date d'entrée en vigueur en haut avant la sortie du changement. Jette un œil à la date de temps en temps.</p>
+
+    <h2>8. Contact</h2>
+    <p>Questions sur la confidentialité : <a href="mailto:ottoaktuc@gmail.com">ottoaktuc@gmail.com</a></p>
+
+    <a class="top" href="#en" hreflang="en" lang="en">Read in English <span aria-hidden="true">→</span></a>
+    <a class="top" href="#tr" hreflang="tr" lang="tr">Türkçe okumak için <span aria-hidden="true">→</span></a>
+    <a class="top" href="#de" hreflang="de" lang="de">Auf Deutsch lesen <span aria-hidden="true">→</span></a>
+    <a class="top" href="#pt" hreflang="pt-BR" lang="pt-BR">Ler em português <span aria-hidden="true">→</span></a>
+    <a class="top" href="#es" hreflang="es" lang="es">Leer en español <span aria-hidden="true">→</span></a>
+  </section>
+
+</main>
+</body>
+</html>
